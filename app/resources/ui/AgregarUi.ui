@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AgregarWindow</class>
+ <widget class="QMainWindow" name="AgregarWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>993</width>
+    <height>830</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="Container">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1001</width>
+      <height>821</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1001</width>
+      <height>821</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: rgb(167, 167, 167);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout" stretch="1,8">
+     <item>
+      <widget class="QFrame" name="Sup">
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QFrame" name="frame_3">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QLabel" name="label">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>20</y>
+             <width>51</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Alumno:</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>20</y>
+             <width>361</width>
+             <height>22</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="comboBox">
+           <property name="geometry">
+            <rect>
+             <x>420</x>
+             <y>20</y>
+             <width>21</width>
+             <height>22</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QListView" name="listViewSearch">
+           <property name="geometry">
+            <rect>
+             <x>60</x>
+             <y>40</y>
+             <width>361</width>
+             <height>192</height>
+            </rect>
+           </property>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_4">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QPushButton" name="But_Exit">
+           <property name="geometry">
+            <rect>
+             <x>410</x>
+             <y>10</y>
+             <width>31</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Arial Rounded MT Bold</family>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border_ratius: 20px;</string>
+           </property>
+           <property name="text">
+            <string>X</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="Central">
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>10</y>
+          <width>961</width>
+          <height>681</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>961</width>
+          <height>681</height>
+         </size>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="DatosPersonales">
+         <attribute name="title">
+          <string>Datos Personales</string>
+         </attribute>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QFrame" name="frame">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="6,4">
+             <item>
+              <widget class="QFrame" name="frame_7">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_2">
+                <item>
+                 <widget class="QGroupBox" name="groupBox">
+                  <property name="minimumSize">
+                   <size>
+                    <width>441</width>
+                    <height>251</height>
+                   </size>
+                  </property>
+                  <property name="title">
+                   <string>Campos Obligatorios</string>
+                  </property>
+                  <widget class="QFrame" name="frame_6">
+                   <property name="geometry">
+                    <rect>
+                     <x>136</x>
+                     <y>26</y>
+                     <width>381</width>
+                     <height>258</height>
+                    </rect>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>381</width>
+                     <height>258</height>
+                    </size>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <widget class="QLineEdit" name="lineEdit_Apellido">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>10</y>
+                      <width>361</width>
+                      <height>22</height>
+                     </rect>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>361</width>
+                      <height>22</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="lineEdit_Nombre">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>50</y>
+                      <width>361</width>
+                      <height>22</height>
+                     </rect>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>361</width>
+                      <height>22</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
+                   <widget class="QLineEdit" name="lineEdit_DNI">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>100</y>
+                      <width>361</width>
+                      <height>22</height>
+                     </rect>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>361</width>
+                      <height>22</height>
+                     </size>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(255, 255, 255);</string>
+                    </property>
+                   </widget>
+                   <widget class="QToolButton" name="toolButton">
+                    <property name="geometry">
+                     <rect>
+                      <x>130</x>
+                      <y>150</y>
+                      <width>22</width>
+                      <height>22</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>...</string>
+                    </property>
+                   </widget>
+                   <widget class="QToolButton" name="toolButton_2">
+                    <property name="geometry">
+                     <rect>
+                      <x>130</x>
+                      <y>210</y>
+                      <width>22</width>
+                      <height>22</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>...</string>
+                    </property>
+                   </widget>
+                   <widget class="QDateEdit" name="dateEdit">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>150</y>
+                      <width>110</width>
+                      <height>22</height>
+                     </rect>
+                    </property>
+                   </widget>
+                   <widget class="QDateEdit" name="dateEdit_2">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>210</y>
+                      <width>110</width>
+                      <height>22</height>
+                     </rect>
+                    </property>
+                   </widget>
+                   <widget class="QCalendarWidget" name="calendarWidget">
+                    <property name="geometry">
+                     <rect>
+                      <x>160</x>
+                      <y>130</y>
+                      <width>312</width>
+                      <height>190</height>
+                     </rect>
+                    </property>
+                   </widget>
+                   <widget class="QCalendarWidget" name="calendarWidget_2">
+                    <property name="geometry">
+                     <rect>
+                      <x>160</x>
+                      <y>180</y>
+                      <width>312</width>
+                      <height>301</height>
+                     </rect>
+                    </property>
+                   </widget>
+                   <zorder>lineEdit_Apellido</zorder>
+                   <zorder>lineEdit_Nombre</zorder>
+                   <zorder>lineEdit_DNI</zorder>
+                   <zorder>toolButton</zorder>
+                   <zorder>toolButton_2</zorder>
+                   <zorder>dateEdit</zorder>
+                   <zorder>dateEdit_2</zorder>
+                   <zorder>calendarWidget_2</zorder>
+                   <zorder>calendarWidget</zorder>
+                  </widget>
+                  <widget class="QFrame" name="frame_2">
+                   <property name="geometry">
+                    <rect>
+                     <x>10</x>
+                     <y>26</y>
+                     <width>121</width>
+                     <height>258</height>
+                    </rect>
+                   </property>
+                   <property name="frameShape">
+                    <enum>QFrame::StyledPanel</enum>
+                   </property>
+                   <property name="frameShadow">
+                    <enum>QFrame::Raised</enum>
+                   </property>
+                   <widget class="QLabel" name="label_4">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>108</y>
+                      <width>31</width>
+                      <height>16</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>DNI:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_13">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>205</y>
+                      <width>89</width>
+                      <height>16</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>Fecha de Ingreso</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_3">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>10</y>
+                      <width>101</width>
+                      <height>31</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>Apellido:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_2">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>59</y>
+                      <width>47</width>
+                      <height>16</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>Nombre:</string>
+                    </property>
+                   </widget>
+                   <widget class="QLabel" name="label_9">
+                    <property name="geometry">
+                     <rect>
+                      <x>10</x>
+                      <y>156</y>
+                      <width>99</width>
+                      <height>16</height>
+                     </rect>
+                    </property>
+                    <property name="text">
+                     <string>Fecha Nacimiento:</string>
+                    </property>
+                   </widget>
+                  </widget>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_2">
+                  <property name="minimumSize">
+                   <size>
+                    <width>441</width>
+                    <height>251</height>
+                   </size>
+                  </property>
+                  <property name="title">
+                   <string>Campos Opcionales</string>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="1,4">
+                   <item>
+                    <widget class="QFrame" name="frame_9">
+                     <property name="frameShape">
+                      <enum>QFrame::StyledPanel</enum>
+                     </property>
+                     <property name="frameShadow">
+                      <enum>QFrame::Raised</enum>
+                     </property>
+                     <layout class="QVBoxLayout" name="verticalLayout_4">
+                      <item>
+                       <widget class="QLabel" name="label_11">
+                        <property name="text">
+                         <string>Estado Civil</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_12">
+                        <property name="text">
+                         <string>Ocupación:</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_5">
+                        <property name="text">
+                         <string>Domicilio:</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_7">
+                        <property name="text">
+                         <string>Telefono 2:</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_6">
+                        <property name="text">
+                         <string>Telefono 1</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_8">
+                        <property name="text">
+                         <string>Lugar Nacimiento:</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QFrame" name="frame_8">
+                     <property name="frameShape">
+                      <enum>QFrame::StyledPanel</enum>
+                     </property>
+                     <property name="frameShadow">
+                      <enum>QFrame::Raised</enum>
+                     </property>
+                     <widget class="QLineEdit" name="lineEdit_Ingreso_2">
+                      <property name="geometry">
+                       <rect>
+                        <x>10</x>
+                        <y>100</y>
+                        <width>361</width>
+                        <height>22</height>
+                       </rect>
+                      </property>
+                      <property name="minimumSize">
+                       <size>
+                        <width>361</width>
+                        <height>22</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(255, 255, 255);</string>
+                      </property>
+                     </widget>
+                     <widget class="QLineEdit" name="lineEdit_Ingreso_3">
+                      <property name="geometry">
+                       <rect>
+                        <x>10</x>
+                        <y>140</y>
+                        <width>361</width>
+                        <height>22</height>
+                       </rect>
+                      </property>
+                      <property name="minimumSize">
+                       <size>
+                        <width>361</width>
+                        <height>22</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(255, 255, 255);</string>
+                      </property>
+                     </widget>
+                     <widget class="QLineEdit" name="lineEdit_Ingreso_4">
+                      <property name="geometry">
+                       <rect>
+                        <x>10</x>
+                        <y>180</y>
+                        <width>361</width>
+                        <height>22</height>
+                       </rect>
+                      </property>
+                      <property name="minimumSize">
+                       <size>
+                        <width>361</width>
+                        <height>22</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(255, 255, 255);</string>
+                      </property>
+                     </widget>
+                     <widget class="QLineEdit" name="lineEdit_Ingreso_5">
+                      <property name="geometry">
+                       <rect>
+                        <x>10</x>
+                        <y>220</y>
+                        <width>361</width>
+                        <height>22</height>
+                       </rect>
+                      </property>
+                      <property name="minimumSize">
+                       <size>
+                        <width>361</width>
+                        <height>22</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(255, 255, 255);</string>
+                      </property>
+                     </widget>
+                     <widget class="QLineEdit" name="lineEdit_Ingreso_6">
+                      <property name="geometry">
+                       <rect>
+                        <x>10</x>
+                        <y>60</y>
+                        <width>361</width>
+                        <height>22</height>
+                       </rect>
+                      </property>
+                      <property name="minimumSize">
+                       <size>
+                        <width>361</width>
+                        <height>22</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(255, 255, 255);</string>
+                      </property>
+                     </widget>
+                     <widget class="QLineEdit" name="lineEdit_Ingreso_7">
+                      <property name="geometry">
+                       <rect>
+                        <x>10</x>
+                        <y>20</y>
+                        <width>361</width>
+                        <height>22</height>
+                       </rect>
+                      </property>
+                      <property name="minimumSize">
+                       <size>
+                        <width>361</width>
+                        <height>22</height>
+                       </size>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(255, 255, 255);</string>
+                      </property>
+                     </widget>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_5">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <widget class="QLabel" name="label_14">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>10</y>
+                  <width>111</width>
+                  <height>42</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Tiempo de Practica:</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_10">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>40</y>
+                  <width>41</width>
+                  <height>46</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Edad:</string>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_15">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>80</y>
+                  <width>131</width>
+                  <height>46</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Practica Actualmente:</string>
+                </property>
+               </widget>
+               <widget class="QComboBox" name="comboBox_2">
+                <property name="geometry">
+                 <rect>
+                  <x>140</x>
+                  <y>90</y>
+                  <width>69</width>
+                  <height>22</height>
+                 </rect>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="lineEdit_2">
+                <property name="geometry">
+                 <rect>
+                  <x>60</x>
+                  <y>50</y>
+                  <width>113</width>
+                  <height>22</height>
+                 </rect>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="lineEdit_3">
+                <property name="geometry">
+                 <rect>
+                  <x>130</x>
+                  <y>20</y>
+                  <width>221</width>
+                  <height>22</height>
+                 </rect>
+                </property>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="Graduaciones">
+         <attribute name="title">
+          <string>Graduaciones Obtenidas</string>
+         </attribute>
+         <widget class="QPushButton" name="pushButton">
+          <property name="geometry">
+           <rect>
+            <x>60</x>
+            <y>30</y>
+            <width>191</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Agregar Graduacion Obtenida</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="geometry">
+           <rect>
+            <x>720</x>
+            <y>30</y>
+            <width>191</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Modificar</string>
+          </property>
+         </widget>
+         <widget class="QTextEdit" name="textEdit">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>80</y>
+            <width>931</width>
+            <height>551</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab">
+         <attribute name="title">
+          <string>Observaciones</string>
+         </attribute>
+         <widget class="QPlainTextEdit" name="plainTextEdit">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>70</y>
+            <width>931</width>
+            <height>571</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 255);</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

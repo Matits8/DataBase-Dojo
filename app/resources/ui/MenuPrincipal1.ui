@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>994</width>
+    <height>804</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QFrame" name="General">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(159, 159, 159);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout" stretch="1,8">
+       <item>
+        <widget class="QFrame" name="frame">
+         <property name="styleSheet">
+          <string notr="true">QFrame{
+background-color:rgb(0,0,0,);
+}
+
+QPushButton{
+background-color: #000000ff;
+border-radius:20px;
+}
+
+QPushButton{
+background-color: rgb(61,61,61);
+border-radius:20px;
+}
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QLabel" name="Title">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>20</y>
+            <width>561</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:26pt; font-weight:700;&quot;&gt;Base de Datos Dojo Club .....&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_2">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="2,4,2">
+          <item>
+           <widget class="QFrame" name="PanelIZ">
+            <property name="styleSheet">
+             <string notr="true">QFrame{
+background-color:rgb(0,0,0,);
+}
+
+QPushButton{
+background-color: #000000ff;
+border-radius:20px;
+}
+
+QPushButton{
+background-color: rgb(61,61,61);
+border-radius:20px;
+}
+</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <item>
+              <widget class="QPushButton" name="But_VerDat">
+               <property name="minimumSize">
+                <size>
+                 <width>171</width>
+                 <height>41</height>
+                </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="text">
+                <string>Ver Datos Alumnos</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="But_Asist">
+               <property name="minimumSize">
+                <size>
+                 <width>171</width>
+                 <height>41</height>
+                </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="text">
+                <string>Asistencia</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="But_Exp">
+               <property name="minimumSize">
+                <size>
+                 <width>171</width>
+                 <height>41</height>
+                </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="text">
+                <string>Exportar Datos</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="Imagen">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QLabel" name="Logo">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>90</y>
+               <width>441</width>
+               <height>441</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>441</width>
+               <height>441</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/LogoEstudiantes/LogoEsudiantes.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="PanelDE">
+            <property name="styleSheet">
+             <string notr="true">QFrame{
+background-color:rgb(0,0,0,);
+}
+
+QPushButton{
+background-color: #000000ff;
+border-radius:20px;
+}
+
+QPushButton{
+background-color: rgb(61,61,61);
+border-radius:20px;
+}
+</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <item>
+              <widget class="QPushButton" name="But_AgrAlum">
+               <property name="minimumSize">
+                <size>
+                 <width>171</width>
+                 <height>41</height>
+                </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="text">
+                <string>Agregar Alumno</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="But_ModDat">
+               <property name="minimumSize">
+                <size>
+                 <width>171</width>
+                 <height>41</height>
+                </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="text">
+                <string>Modificar Datos</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="But_AgrGra">
+               <property name="minimumSize">
+                <size>
+                 <width>171</width>
+                 <height>41</height>
+                </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="text">
+                <string>Agregar Graduación</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../GUI`s/resorces/images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
